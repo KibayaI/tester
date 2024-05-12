@@ -1,0 +1,202 @@
+/*  ----------  CSS RESET---------- */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "inter", sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+header {
+  margin: 1rem 3.5rem 1rem;
+}
+
+hr {
+  margin-bottom: 4rem;
+}
+
+nav,
+ul,
+.account,
+.container,
+.register,
+.next,
+.gap,
+.freq {
+  justify-content: center;
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 44px;
+}
+
+nav ul {
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.user {
+  margin-left: 5rem;
+}
+
+.user ul li:last-child img {
+  width: 44px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.container {
+  align-items: flex-start;
+  column-gap: 117px;
+}
+
+.account,
+.summary {
+  flex-direction: column;
+}
+
+.account {
+  width: 35rem;
+  height: auto;
+}
+
+.details {
+  padding: 0 5.4rem;
+}
+
+.summary {
+  width: 20rem;
+  height: auto;
+}
+
+.progress {
+  margin-block: 0.3rem 2rem;
+}
+
+.progress ul li:first-child {
+  color: rgba(0, 110, 255, 0.822);
+}
+
+.email,
+.password {
+  display: inline-block;
+  position: relative;
+  font-size: 13px;
+}
+
+#email,
+#password {
+  margin: 0.5rem 0;
+}
+
+input {
+  width: 390px;
+  height: 30px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+.register,
+.next {
+  justify-content: flex-end;
+  font-size: 13px;
+  align-items: center;
+  margin: 1rem 0 6rem;
+}
+
+.account button {
+  border: none;
+  margin-left: 1rem;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+  background-color: rgba(0, 110, 255, 0.822);
+  color: white;
+}
+
+.summary img {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 150px;
+}
+
+.gap {
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.summary button {
+  background-color: lightgray;
+  border: none;
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freq {
+  align-items: center;
+  column-gap: 0.6rem;
+}
+
+.apply {
+  border: rgba(0, 110, 255, 0.822) 1px solid;
+  color: rgba(0, 110, 255, 0.822);
+  background-color: white;
+  width: 80px;
+}
+
+#code {
+  width: 190px;
+}
+
+/*  ----------  UTILITIES  ---------- */
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.space {
+  margin-inline: 0.2rem;
+}
+
+.space-outer {
+  margin-inline: 1rem;
+}
+
+.progress-check {
+  color: black;
+}
+
+.check {
+  position: absolute;
+  bottom: 16px;
+  right: 10px;
+}
+
+.dark {
+  color: black;
+  font-weight: 600;
+}
+
+button:hover, .apply:hover {
+  cursor: pointer;
+}

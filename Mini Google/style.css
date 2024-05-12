@@ -1,0 +1,105 @@
+/* ----------   CSS RESET   ---------- */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d8e5f6;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 270px;
+  height: 450px;
+  border-radius: 39px;
+  background-color: #e5edf8;
+  position: relative;
+  border: 1px solid white;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+.name {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.role {
+  margin-top: 0.3rem;
+  color: #333333de;
+  font-size: 0.9em;
+  margin-bottom: 2rem;
+}
+
+.facebook,
+.twitter {
+  color: #285aeb;
+}
+
+.insta {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+}
+
+.social {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 4rem;
+}
+
+button {
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.shadow {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 40px;
+}
+
+.two {
+  bottom: 0px;
+  left: 0px;
+  box-shadow: -10px 10px 48px rgba(29, 105, 245, 0.801);
+}
+
+.one {
+  top: 0px;
+  right: 0px;
+  box-shadow: -10px 10px 40px rgba(29, 105, 245, 0.801);
+}

@@ -1,0 +1,46 @@
+/* ----------CSS RESET----------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    height: 480px;
+}
+
+img {
+    width: 260px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.text {
+    padding: 0px 10px;
+}
+
+.heading {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+}
